@@ -9,7 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:"route1",pathMatch:'full'},
+  
   {path: "route1", component:AppComponent},
   {path:"login",component:LoginComponent},
   {path:"register",component:RegisterComponent},
