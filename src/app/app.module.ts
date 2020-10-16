@@ -18,6 +18,8 @@ import { PackagesComponent } from './packages/packages.component';
 import { ServicesComponent } from './services/services.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RegisterComponent } from './register/register.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { RegisterComponent } from './register/register.component';
     GalleryComponent,
     PackagesComponent,
     ServicesComponent,
-    RegisterComponent
+    RegisterComponent,
+    CarouselComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
